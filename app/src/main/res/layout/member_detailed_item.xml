@@ -1,0 +1,66 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:layout_marginBottom="16dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginRight="32dp"
+        android:background="@android:color/transparent"
+        android:text="TextView"
+        android:textColor="@color/primaryText"
+        android:textSize="16sp"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:baselineAlignedChildIndex="@+id/editText"-->
+    <!--android:minHeight="48dp"-->
+    <!--android:layout_marginBottom="16dp">-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/item_icon"-->
+        <!--android:layout_width="32dp"-->
+        <!--android:layout_height="32dp"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:tint="@color/colorAccent"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="56dp"-->
+        <!--android:textSize="16dp"-->
+        <!--android:longClickable="true"-->
+        <!--android:contextClickable="true"-->
+        <!--android:enabled="false"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:textColor="@color/primaryText"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_marginRight="32dp"-->
+        <!--android:text="TextView"/>-->
+
+<!--</LinearLayout>-->
